@@ -13,7 +13,7 @@
 } 
 
 .container{
-    background-color: rgba(53, 129, 195, 0.415);
+    background-color: rgba(53, 129, 195, 0.285);
     display: flex;
     flex-direction: column;
     padding: 3rem;
