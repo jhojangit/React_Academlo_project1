@@ -74,6 +74,7 @@
     border: 1px solid white;
     border-radius: 1rem;
     transition: background-color .3s;
+    cursor: pointer;
 }
 
 .container-btn button:hover{
