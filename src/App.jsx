@@ -33,8 +33,6 @@ function App() {
         "/backgrounds/fondo4.jpg"
     ];
     
-    
-    
     const [currentBg, setCurrentBg] = useState(backG[0]);
 
     const handleBgChange = () => {
@@ -50,15 +48,20 @@ function App() {
 
 
 
-
-
   return (
     <div style={{ backgroundImage: `url(${currentBg})` }} className="App">
       <div className="container">
         <h1>Galletas de la fortuna</h1>
           <PrintPhrase randomPhrase={actualPhrase}/>
           <BtnNext btnchangeColor={handleBgChange} btnchangephrase={newPhrase}/>
+
+
       </div>
+
+      <div className="social">
+            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://react-week1.netlify.app//">Compartir </a>
+            <img src="/faceB.png" alt="" />
+          </div>
     </div>
   )  
   

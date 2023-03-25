@@ -57,6 +57,14 @@
 
 }
 
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
 .container-btn button{
     background-color: rgba(255, 255, 255, 0.395);
     color: rgb(32, 32, 32);
@@ -73,6 +81,24 @@
     color: rgb(66, 83, 195);
 }
 
+img{
+    width: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(26, 64, 171);
+    font-size: large;
+    font-weight: bold ;
+}
+
+.fb-share-button{
+    width: 100%;
+    text-align: center;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
 
 @media (min-width: 690px) {
     .container{
@@ -81,5 +107,9 @@
 
     .container-phrase{
         height: 200px;
+    }
+
+    .social{
+        margin-top: 5rem;
     }
 }
