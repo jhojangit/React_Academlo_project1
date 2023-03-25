@@ -5,7 +5,7 @@ function BackgroundChange() {
     let idxBackGround = Math.floor(Math.random()*backG.length)
     let bg = backG[idxBackGround]
 
-    document.body.style.backgroundImage = bg
+    document.body.style.backgroundImage = bg  
 }
 
 export default BackgroundChange
