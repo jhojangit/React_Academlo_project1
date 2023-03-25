@@ -1,9 +1,17 @@
 
-const Btn = ({butto}) =>{
+const Btn = ({btnchangephrase, btnchangeColor}) =>{
     
     return(
         <div className="container-btn">
-            <button onClick={butto}>Ver otro  🔜</button>
+
+            <button
+                onClick={() => {
+                    const funcionPhrase = btnchangephrase
+                    const funcionColor = btnchangeColor
+                    funcionPhrase();
+                    funcionColor();
+                }}
+            >Ver siguiente 🔜</button>
         </div>
     )
 }

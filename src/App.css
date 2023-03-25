@@ -4,15 +4,13 @@
     box-sizing: border-box;
 }
 
-/* body{
+
+.App{
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed ;
-} */
-
-.App{
-    height: 100vh;
 }
 
 .container{
