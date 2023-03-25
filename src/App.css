@@ -4,13 +4,24 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 
 .App{
     height: 100vh;
+=======
+body{
+>>>>>>> e261074594e552d56fad7dcc0940d0eae2950e07
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed ;
+<<<<<<< HEAD
+=======
+} 
+
+.App{
+    height: 100vh;
+>>>>>>> e261074594e552d56fad7dcc0940d0eae2950e07
 }
 
 .container{
