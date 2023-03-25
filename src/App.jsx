@@ -33,10 +33,18 @@ function App() {
         "/backgrounds/fondo4.jpg"
     ];
     
+    
+    
     const [currentBg, setCurrentBg] = useState(backG[0]);
 
     const handleBgChange = () => {
-        const randomIdx = Math.floor(Math.random() * backG.length);
+        let randomIdx = Math.floor(Math.random() * (backG.length - 0));
+        if (currentBg == backG) {
+          randomIdx = randomIdx[Math.floor(Math.random() * (backG.length - 0))]
+          if (currentBg == backG) {
+            randomIdx = randomIdx[Math.floor(Math.random() * (backG.length - 0))]
+          }
+        }
         setCurrentBg(backG[randomIdx]);
     }
 
@@ -47,7 +55,6 @@ function App() {
   return (
     <div style={{ backgroundImage: `url(${currentBg})` }} className="App">
       <div className="container">
-
         <h1>Galletas de la fortuna</h1>
           <PrintPhrase randomPhrase={actualPhrase}/>
           <BtnNext btnchangeColor={handleBgChange} btnchangephrase={newPhrase}/>
