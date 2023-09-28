@@ -11,7 +11,7 @@ const Btn = ({btnchangephrase, btnchangeColor}) =>{
                     funcionPhrase();
                     funcionColor();
                 }}
-            >Ver siguiente</button>
+            >¡Abrir otra galleta de la fortuna!</button>
         </div>
     )
 }
